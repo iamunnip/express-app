@@ -14,6 +14,7 @@ app.get('/', (req, res) => {
 app.get('/users', (req, res) => {
     return res.json({ users });
 });
+
 app.post('/users', (req, res) => {
     const newUserId = req.body.userId;
 

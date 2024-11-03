@@ -2,6 +2,10 @@
 
 #### Commands
 
+##### Starting app
+
+`$ npm start`
+
 ##### Verifying app
 
 `$ curl http://localhost:3000`
